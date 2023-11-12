@@ -1,19 +1,41 @@
 body {
-  background-color:white; 
+  background-color: white;
 }
- .header{
-    border-bottom:2px solid black;
-    padding-left: 10px;
-   margin-left:10%;
-   margin-right:10%; 
+.contact {
+  border-bottom: 2px solid black;
+  padding: 20px;
+  position: relative;
 }
-.contact{
-  border-bottom:2px solid black 
-}
-.image-style{
-  width: 30%;
-  height: 25%;
+.contact img {
+  width: 100px; /
+  height: auto;
   position: absolute;
-    top: 0;
-    right: 0;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff; /
+}
+.header {
+  border-bottom: 2px solid black;
+  padding: 20px;
+  margin: 0 auto; 
+  max-width: 800px; 
+}
+.qualification {
+  margin: 20px auto;
+  max-width: 800px;
+}
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+details li {
+  margin-bottom: 5px;
 }
